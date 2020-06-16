@@ -32,7 +32,7 @@ class Bird:
                 obstacle.width,
                 obstacle.height
             )):
-                pygame.quit()
+                
         
 class ObstaclesManager:
     def __init__(self):
