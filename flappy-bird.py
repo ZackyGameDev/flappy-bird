@@ -13,7 +13,7 @@ class Bird:
         self.y = win_h * 0.5
         self.vsp = 0
         self.jumpsp = win_h*0.015
-        self.grv = win_h*0.00069
+        self.grv = win_h*0.00069 # Nice
         self.body = pygame.Rect(self.x, self.y, win_h*0.05, win_h*0.05)
         
     def jump(self):
